@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import JumbotronContainer from "./JumbotronContainer";
 import CardContainer from "./CardContainer";
 
@@ -8,8 +9,9 @@ import CardContainer from "./CardContainer";
 const Home = () => {
 	return (
 		<>
+			<Navbar />
 			<div className="container-fluid">
-				<div className="row mt-5">
+				<div className="row">
 					<JumbotronContainer />
 				</div>
 				<div className="row">
