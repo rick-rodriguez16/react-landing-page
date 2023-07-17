@@ -6,23 +6,23 @@ const CardContainer = () => {
         <>
             <div className="row">
                 <div className="col-2"></div>
-                <div className="col-8">
-                <div className="row">
-                    <div className="col">
-                        <Card />
-                    </div>
-                    <div className="col">
-                        <Card />
-                    </div>	
-                    <div className="col">
-                        <Card />
-                    </div>	
-                    <div className="col">
-                        <Card />
+                <div className="col-8 mx-auto">
+                    <div className="row">
+                        <div className="col">
+                            <Card />
+                        </div>
+                        <div className="col">
+                            <Card />
+                        </div>	
+                        <div className="col">
+                            <Card />
+                        </div>	
+                        <div className="col">
+                            <Card />
+                        </div>
                     </div>
                 </div>
                 <div className="col-2"></div>
-                </div>
 		    </div>
 		</>
     );

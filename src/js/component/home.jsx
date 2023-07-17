@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import JumbotronContainer from "./JumbotronContainer";
 import CardContainer from "./CardContainer";
+import Footer from "./Footer";
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
 					<CardContainer />
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };
