@@ -11,13 +11,9 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="container-fluid">
-				<div className="row">
-					<JumbotronContainer />
-				</div>
-				<div className="row">
-					<CardContainer />
-				</div>
+			<div className="container-fluid mt-5">
+				<JumbotronContainer />
+				<CardContainer />
 			</div>
 			<Footer />
 		</>
